@@ -1,0 +1,1 @@
+# Consultas-NULL-IS-NOT-NULL-Oracle

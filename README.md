@@ -52,7 +52,6 @@
  | codigo            | nombre               |   laboratorio   | precio |    cantidad   | 
  | -----------------| :----------------:| --------:|  --------:|  --------:|
  | 1         | Sertal gotas    |  null   |  null     |  100   |
- | 2     | Sertal compuesto         |  null     |  8.90     |  150  |
  | 3        | Buscapina   |  Roche     |  null     |  200   |
  
  ___
@@ -63,6 +62,7 @@
   select * from medicamentos where laboratorio is not null;
 ```
  | codigo            | nombre               |   laboratorio   | precio |    cantidad   | 
+ | -----------------| :----------------:| --------:|  --------:|  --------:|
  | 3        | Buscapina   |  Roche     |  null     |  200   |
  | 3        | Buscapina   |  Roche     |  0   |  200   |
  

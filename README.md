@@ -68,5 +68,14 @@
  | 4        | Buscapina   |  Roche     |  0   |  200   |
  | 5        | Panadaol   |        |  0   |  200   |
  
+ ___
  
+  > Consulta para saber si hay un campo vacio
+ 
+ ```sql
+  select * from medicamentos where laboratorio = ' ';
+```
+ | codigo            | nombre               |   laboratorio   | precio |    cantidad   | 
+ | -----------------| :----------------:| --------:|  --------:|  --------:|
+ | 5        | Panadaol   |        |  0   |  200   |
  

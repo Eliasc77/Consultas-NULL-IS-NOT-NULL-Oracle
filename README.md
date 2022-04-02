@@ -33,7 +33,9 @@
  | 3        | Buscapina   |  Roche     |  null     |  200   |
  | 4        | Buscapina   |  Roche     |  0   |  200   |
  | 5        | Panadaol   |        |  0   |  200   |
- > Buscar registros con valor de laboratorio null
+ ___
+ 
+ > Buscar registros en la tabla laboratorio que contenga campos null
  
  ```sql
   select * from medicamentos where laboratorio is null;
@@ -70,7 +72,7 @@
  
  ___
  
-  > Consulta para saber si hay un campo vacio
+  > Consulta que campos contienen valores vacios dentro de una tabla
  
  ```sql
   select * from medicamentos where laboratorio = ' ';
